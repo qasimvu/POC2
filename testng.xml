@@ -3,7 +3,6 @@
     <test name="GCC_Automation">
         <classes>
             <class name="com.ccaoa.tests.BackEndTestCases" />
-            <class name="com.ccaoa.tests.FrontEndTestCases" />
         </classes>
     </test>
 </suite>
