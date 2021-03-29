@@ -24,7 +24,7 @@ public class BackEndTestCases extends RestBase {
         // Title of the Report
         htmlReporter.config().setDocumentTitle("Test Automation Report");
         //Name of the Report
-        htmlReporter.config().setReportName("Frontend Test Report");
+        htmlReporter.config().setReportName("Backend Test Report");
         htmlReporter.config().setTheme(Theme.STANDARD);
 
 

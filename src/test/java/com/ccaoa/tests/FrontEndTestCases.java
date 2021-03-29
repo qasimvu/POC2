@@ -246,10 +246,10 @@ public class FrontEndTestCases extends Base {
         homepage.clickSignOut();
 
     }
+
     @AfterTest
     public void publishReport(){
         extent.flush();
-
     }
 
 }
