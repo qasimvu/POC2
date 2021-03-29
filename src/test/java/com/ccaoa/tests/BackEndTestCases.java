@@ -51,13 +51,6 @@ public class BackEndTestCases extends RestBase {
                 .get("https://api.dev.greatchildcare.org/api/provider/search")
                 .getStatusCode();
         System.out.println("The response status is "+statusCode);
-
-        given().queryParam("providerId","9244745").when().get();
-
-        Response response = given().queryParam("providerId", "9244745").when().get();
-
-        System.out.println("contentType " + response.contentType());
-
     }
 
     //Provider Search Based on Provider ID
