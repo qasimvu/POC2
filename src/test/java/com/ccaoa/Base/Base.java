@@ -13,6 +13,7 @@ import org.testng.annotations.*;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+// Added by Qasim Alam
 
 public class Base {
     public static WebDriver driver = null;
