@@ -39,26 +39,26 @@ public class BackEndTestCases extends RestBase {
 
     }
     //Provider Search status code verification
-    @Test (priority = 0)
-    public void getResponseStatus()throws InterruptedException{
-        test=extent.createTest("getResponseStatus");
+   // @Test (priority = 0)
+   // public void getResponseStatus()throws InterruptedException{
+     //   test=extent.createTest("getResponseStatus");
     // test=test.createTest("getResponseStatus");
-        test.log(Status.PASS, "Verify the Status Code");
-       int statusCode= given()
-                .queryParam("providerId","9244745")
-                .queryParam("accredited","true")
-                .queryParam("pageNumber","0") .when()
-                .get("https://api.dev.greatchildcare.org/api/provider/search")
-                .getStatusCode();
-        System.out.println("The response status is "+statusCode);
+       // test.log(Status.PASS, "Verify the Status Code");
+       //int statusCode= given()
+         //       .queryParam("providerId","9244745")
+           //     .queryParam("accredited","true")
+             //   .queryParam("pageNumber","0") .when()
+               // .get("https://api.dev.greatchildcare.org/api/provider/search")
+                //.getStatusCode();
+        //System.out.println("The response status is "+statusCode);
 
-        given().queryParam("providerId","92447454").when().get();
+        //given().queryParam("providerId","9244745").when().get();
 
-        Response response = given().queryParam("providerId", "").when().get();
+        //Response response = given().queryParam("providerId", "").when().get();
 
-        System.out.println("contentType " + response.contentType());
+        //System.out.println("contentType " + response.contentType());
 
-    }
+    //}
 
     //Provider Search Based on Provider ID
     @Test (priority = 1)
