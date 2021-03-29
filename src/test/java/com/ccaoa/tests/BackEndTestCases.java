@@ -52,7 +52,7 @@ public class BackEndTestCases extends RestBase {
                 .getStatusCode();
         System.out.println("The response status is "+statusCode);
 
-        given().queryParam("providerId","92447454").when().get();
+        given().queryParam("providerId","9244745").when().get();
 
         Response response = given().queryParam("providerId", "").when().get();
 
