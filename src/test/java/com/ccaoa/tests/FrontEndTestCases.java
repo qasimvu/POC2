@@ -75,7 +75,6 @@ public class FrontEndTestCases extends Base {
 
     }
 
-
     @AfterTest
     public void publishReport(){
         extent.flush();
