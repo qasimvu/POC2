@@ -25,7 +25,7 @@ public class Base {
     @BeforeMethod
     public void initialize() throws IOException {
 
-        System.setProperty("webdriver.chrome.driver", "D:\\ChromeDriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Downloads\\chromedriver.exe");
 
        // System.setProperty("webdriver.chrome.driver", "Downloads\\chromedriver.exe");
 
