@@ -7,7 +7,6 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import java.io.IOException;
@@ -27,6 +26,8 @@ public class Base {
     public void initialize() throws IOException {
 
         System.setProperty("webdriver.chrome.driver", "D:\\ChromeDriver\\chromedriver.exe");
+
+       // System.setProperty("webdriver.chrome.driver", "Downloads\\chromedriver.exe");
 
         driver = new ChromeDriver();
 
