@@ -124,8 +124,10 @@ public class BackEndTestCases extends RestBase {
         Assert.assertEquals(zipCode.contains("02472"), true, "Response Body contains Zip Code as 75241");
     }
 
+
     @AfterSuite
     public void publish(){
+
         extent.flush();
     }
 }
