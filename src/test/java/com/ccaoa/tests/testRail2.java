@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-//Added Qasim
+
 
 public class testRail2 {
 
